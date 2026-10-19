@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#C8A2F0">
+<title>Happy Birthday, Janani Sindhu 💜</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="door">
+<div id="bg" aria-hidden="true"></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<header id="top">
+  <button class="ibtn" id="menuBtn" aria-label="Open section list" title="Sections">☰</button>
+  <div id="prog">
+    <div id="progText" aria-live="polite">Section 1 of 15</div>
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="15" aria-valuenow="0" aria-label="Sections completed"><i id="progFill"></i></div>
+  </div>
+  <button class="ibtn" id="soundBtn" aria-pressed="false" aria-label="Turn sound on" title="Sound is off">🔇</button>
+</header>
+<main id="stage" tabindex="-1"></main>
+<footer id="bottom">
+  <button class="btn ghost" id="backBtn">← Back</button>
+  <p id="hint"></p>
+  <button class="btn" id="nextBtn">Continue →</button>
+</footer>
+<div id="overlay" hidden></div>
+<noscript><p style="padding:20px">Please enable JavaScript to open Janani's birthday surprise 💜</p></noscript>
+<script src="script.js"></script>
+</body>
+</html>
